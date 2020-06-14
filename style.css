@@ -1,0 +1,97 @@
+body {
+    background: #ea3;
+}
+
+.green-text {
+    color: green;
+    font-weight: bold;
+}
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+.big-text {
+    font-size: 2.0em;
+    color: blue;
+    padding-right: 0.5vw;
+    font-weight: bold;
+}
+.centered-text {
+    padding-left: 10%;
+}
+
+main#whole-content {
+    background: #ddd;
+    width: 85%;
+    height: auto;
+    margin-left: 4vw;
+    border: #ddd 2px dashed;
+    border-radius: 2em;
+
+}
+
+main section#main-policy {
+    margin-left: 3vw;
+}
+article, section {
+    margin: 5vh 1vw 5vh 1vw;
+
+}
+p, h2, h3, h4, h5, h6 , ol, li {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+p, li {
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+main#whole-content section header h1 {
+    text-align: center;
+    font-size: xx-large;
+    background: #bb3388;
+    color: #fff;
+    padding: 2vh 0 2vh 0;
+    border-radius: 2em;
+}
+main#whole-content section header h3, main#whole-content section header h2, main#whole-content section header p {
+    text-align: center;
+}
+
+ol li {
+    margin-left: 3vw;
+}
+
+section#payment {
+    margin-left: 5vw;
+}
+
+footer#footer {
+
+    background: #000;
+    color: #fff;
+    margin-bottom: 0.1vh;
+    border-radius: 2em;
+  
+}
+
+footer#footer div {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+
+footer#footer div a {
+    text-decoration: none;
+    color: inherit;
+    padding: 4vh 2vw 2vh 2vw;
+}
+
+footer#footer p {
+    text-align: center;
+    padding-bottom: 4vh;
+}
