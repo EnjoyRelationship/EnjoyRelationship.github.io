@@ -22,9 +22,9 @@ body {
 
 main#whole-content {
     background: #ddd;
-    width: 85%;
+    width: 95%;
     height: auto;
-    margin-left: 4vw;
+    margin-left: 2vw;
     border: #ddd 2px dashed;
     border-radius: 2em;
 
