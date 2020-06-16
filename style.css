@@ -58,7 +58,7 @@ main#whole-content header section.top-hdr{
 
 main#whole-content header section.top-hdr p {
 	font-size: 0.6em;
-	padding: 0;
+	padding: 0 1vw 0 1vw;
 }
 
 
