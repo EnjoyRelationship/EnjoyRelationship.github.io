@@ -47,7 +47,22 @@ p, li {
     text-align: justify;
 }
 
-main#whole-content section header h1 {
+main#whole-content header section.top-hdr{
+    text-align: center;
+    font-size: xx-large;
+    background: #bb3388;
+    color: #fff;
+    margin: 0.5vh 0 0.2vh 0;
+    border-radius: 1em;
+}
+
+main#whole-content header section.top-hdr p {
+	font-size: 0.6em;
+	padding: 0;
+}
+
+
+main#whole-content header h1.top-hdr  {
     text-align: center;
     font-size: xx-large;
     background: #bb3388;
@@ -55,7 +70,8 @@ main#whole-content section header h1 {
     padding: 2vh 0 2vh 0;
     border-radius: 2em;
 }
-main#whole-content section header h3, main#whole-content section header h2, main#whole-content section header p {
+
+main#whole-content header h3, main#whole-content header h2, main#whole-content header p {
     text-align: center;
 }
 
