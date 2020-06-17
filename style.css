@@ -24,10 +24,9 @@ main#whole-content {
     background: #ddd;
     width: 95%;
     height: auto;
-    margin-left: 2vw;
-    border: #ddd 2px dashed;
+    margin-left: 1vw;
+    border: rgb(35, 122, 172) 2px dashed;
     border-radius: 2em;
-
 }
 
 main section#main-policy {
@@ -38,37 +37,37 @@ article, section {
 
 }
 p, h2, h3, h4, h5, h6 , ol, li {
-    padding-left: 1vw;
-    padding-right: 1vw;
+   padding-left: 1vw;
+   padding-right: 1vw;
 }
-
 p, li {
-    line-height: 1.3em;
-    text-align: justify;
+   line-height: 1.3em;
+   text-align: justify;
 }
 
 main#whole-content header section.top-hdr{
-    text-align: center;
-    font-size: xx-large;
-    background: #bb3388;
-    color: #fff;
-    margin: 0.5vh 0 0.2vh 0;
-    border-radius: 1em;
+   text-align: center;
+   font-size: xx-large;
+   background: #3363bb;
+   color: #fff;
+   margin: 0.5vh 0.5vw 0 0.5vw;
+   border-radius: 1em;
+   border:rgb(35, 90, 172) 2px solid;
 }
 
 main#whole-content header section.top-hdr p {
-	font-size: 0.6em;
-	padding: 0 1vw 1vh 1vw;
+   font-size: 0.6em;
+   padding: 0 1vw 1vh 1vw;
 }
 
-
-main#whole-content header h1.top-hdr  {
-    text-align: center;
-    font-size: xx-large;
-    background: #bb3388;
-    color: #fff;
-    padding: 2vh 0 2vh 0;
-    border-radius: 2em;
+ main#whole-content header h1.top-hdr  {
+   text-align: center;
+   font-size: xx-large;
+   background: #3363bb;
+   color: #fff;
+   margin: 2vh 1vw 2vh 1vw;
+   padding: 2vh 0 2vh 0;
+   border-radius: 0.5em;
 }
 
 main#whole-content header h3, main#whole-content header h2, main#whole-content header p {
