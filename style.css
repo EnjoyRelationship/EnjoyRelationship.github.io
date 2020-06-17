@@ -35,23 +35,7 @@ main section#main-policy {
     margin-left: 3vw;
 }
 
-
-main#whole-content header section.top-hdr{
-   text-align: center;
-   font-size: xx-large;
-   background: #3363bb;
-   color: #fff;
-   margin: 0.5vh 0.5vw 0 0.5vw;
-   border-radius: 1em;
-   border:rgb(35, 90, 172) 2px solid;
-}
-
-main#whole-content header p {
-   font-size: 0.6em;
-   padding: 0 1vw 1vh 1vw;
-}
-
- main#whole-content header h1  {
+main#whole-content section header h1 {
    text-align: center;
    font-size: xx-large;
    background: #3363bb;
@@ -60,8 +44,7 @@ main#whole-content header p {
    padding: 2vh 0 2vh 0;
    border-radius: 0.5em;
 }
-
-main#whole-content header h3, main#whole-content header h2, main#whole-content header p {
+main#whole-content section header h3, main#whole-content section header h2, main#whole-content section header p {
     text-align: center;
 }
 
