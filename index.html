@@ -107,6 +107,22 @@
             article#art-img figure div {
                 margin-left: 1vw;
             }
+	    
+	    /* MEDIA QUERIES FOR SMALL DEVICES */
+	    
+	    @media (min-width: 250px) and (max-width: 490px) {
+                article#art-img figure {
+                display: grid;
+                grid-template-columns: auto;
+                justify-content: space-around;
+                align-items: center;
+                }
+
+                article#art-img figure div {
+                margin-bottom: 2vh;
+                }
+            }
+
 
             /* payment */
 
